@@ -35,7 +35,7 @@ const NavBar = (props: { className?: string }) => {
               weight="bold"
               className="text-foreground"
             >
-              zinc
+              Mohan
             </Heading>
             <span className="absolute left-0 bottom-0 h-[2px] w-0 bg-current transition-all duration-300 group-hover:w-full" />
           </Link>
