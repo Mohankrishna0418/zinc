@@ -1,4 +1,4 @@
-import NavigationBar from "@/components/navigation-bar/NavigationBar";
+import NavigationBar from "@/components/navigationbar/Navigation-Bar";
 import Container from "@/components/Container";
 import AboutBlock from "./About";
 
