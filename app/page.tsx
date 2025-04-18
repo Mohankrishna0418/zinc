@@ -20,9 +20,7 @@ const RootPage = () => {
               Hi, I&apos;m Mohan Krishna A 👋
               <span className="text-xl sm:text-3xl md:text-3xl block mt-3 sm:mt-4 text-foreground/60">
                 Full Stack AI Developer Intern @{" "}
-                <LinkPreview
-                  url="https://stacklane.co"
-                >
+                <LinkPreview url="https://stacklane.co">
                   <span className="text-blue-500">StackLane</span>
                 </LinkPreview>
               </span>
@@ -60,9 +58,9 @@ const RootPage = () => {
                   Frontend Engineering
                 </h3>
                 <p className="text-sm sm:text-base text-foreground/60 mb-4">
-                  Designing scalable, accessible UIs using a cutting-edge stack
-                  centered around Next.js, TypeScript, and Radix UI—built for
-                  performance, aesthetics, and clean code.
+                  Designing sleek, accessible, and high-performance UIs using
+                  modern tools like Next.js, TypeScript, and Radix UI—built with
+                  scalability, responsiveness, and developer experience in mind.
                 </p>
                 <div className="space-y-2">
                   <p className="text-sm font-medium">Core Stack:</p>
@@ -74,9 +72,9 @@ const RootPage = () => {
                   </ul>
                   <p className="text-sm font-medium mt-4">Deliverables:</p>
                   <p className="text-sm text-foreground/60">
-                    Crafting responsive design systems, theme-aware components,
-                    and user-friendly flows optimized for performance and
-                    usability.
+                    Developing intuitive design systems, reusable component
+                    libraries, and interactive user flows that prioritize
+                    accessibility and performance across devices.
                   </p>
                 </div>
               </div>
@@ -86,9 +84,9 @@ const RootPage = () => {
                   Backend Infrastructure
                 </h3>
                 <p className="text-sm sm:text-base text-foreground/60 mb-4">
-                  Building fast, modular backend APIs using Hono.js, PostgreSQL,
-                  and Prisma—powered by REST architecture and cloud-first
-                  principles.
+                  Building robust, maintainable APIs with Hono.js, PostgreSQL,
+                  and Prisma—leveraging RESTful patterns and cloud-native design
+                  principles for speed and reliability.
                 </p>
                 <div className="space-y-2">
                   <p className="text-sm font-medium">Core Stack:</p>
@@ -100,9 +98,9 @@ const RootPage = () => {
                   </ul>
                   <p className="text-sm font-medium mt-4">Deliverables:</p>
                   <p className="text-sm text-foreground/60">
-                    Designing scalable data models, integrating cloud storage,
-                    and delivering production-grade APIs with auth and
-                    performance in mind.
+                    Creating efficient data models, connecting cloud-based
+                    storage, and delivering secure APIs with attention to auth,
+                    validation, and scalability.
                   </p>
                 </div>
               </div>
@@ -112,8 +110,9 @@ const RootPage = () => {
                   Development Tools
                 </h3>
                 <p className="text-sm sm:text-base text-foreground/60 mb-4">
-                  Managing modern developer workflows with Git, automated CI/CD
-                  pipelines, and deployment strategies using cloud platforms.
+                  Streamlining developer workflows through Git-based version
+                  control, CI/CD automation, and cloud deployment pipelines for
+                  rapid, reliable delivery.
                 </p>
                 <div className="space-y-2">
                   <p className="text-sm font-medium">Core Technologies:</p>
@@ -125,9 +124,9 @@ const RootPage = () => {
                   </ul>
                   <p className="text-sm font-medium mt-4">Expertise:</p>
                   <p className="text-sm text-foreground/60">
-                    Setting up continuous delivery, handling version control,
-                    and ensuring code quality through testing and automation
-                    pipelines.
+                    Automating deployments, enforcing code quality, and
+                    maintaining continuous delivery pipelines that support
+                    modern agile development cycles.
                   </p>
                 </div>
               </div>
@@ -157,7 +156,6 @@ const RootPage = () => {
               </Button>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8">
-
               {/* Project 2: Placeholder */}
               <div className="group relative rounded-lg border p-4 sm:p-6 transition-all hover:border-foreground/20">
                 <h3 className="text-lg sm:text-xl font-medium mb-2">
@@ -207,7 +205,6 @@ const RootPage = () => {
                 I&apos;m always interested in hearing about new projects,
                 opportunities.
               </p>
-              
             </div>
           </div>
         </section>

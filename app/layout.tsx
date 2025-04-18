@@ -3,14 +3,16 @@ import { Theme } from "@radix-ui/themes";
 import { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { PropsWithChildren } from "react";
-import { Oxanium } from "next/font/google";
 import LoadingProvider from "@/components/LoadingProvider";
 
-const oxanium = Oxanium({
+import { Josefin_Sans } from "next/font/google";
+
+export const josefin = Josefin_Sans({
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-oxanium",
+  variable: "--font-josefin",
 });
+
 
 export const metadata: Metadata = {
   title: "Mohan Krishna",
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: PropsWithChildren) => {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={oxanium.className}>
+      <body className={josefin.className}>
         <ThemeProvider attribute="class" enableSystem>
           <Theme radius="medium" accentColor="violet">
             <LoadingProvider>{children}</LoadingProvider>

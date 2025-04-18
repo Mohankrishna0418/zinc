@@ -7,17 +7,18 @@ html {
 
 /* Font integration */
 .radix-themes {
-  --default-font-family: var(--font-oxanium);
-  --heading-font-family: var(--font-oxanium);
-  --code-font-family: var(--font-oxanium);
-  --strong-font-family: var(--font-oxanium);
-  --em-font-family: var(--font-oxanium);
-  --quote-font-family: var(--font-oxanium);
+  --default-font-family: var(--font-josefin);
+  --heading-font-family: var(--font-josefin);
+  --code-font-family: var(--font-josefin);
+  --strong-font-family: var(--font-josefin);
+  --em-font-family: var(--font-josefin);
+  --quote-font-family: var(--font-josefin);
   --cursor-button: pointer;
   --transition-property: all;
   --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   --transition-duration: 150ms;
 }
+
 
 /* Theme variables */
 :root {
